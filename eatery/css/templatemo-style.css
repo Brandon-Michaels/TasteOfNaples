@@ -376,7 +376,9 @@ http://www.templatemo.com/tm-515-eatery
     transition: opacity 200ms ease;
     border-radius: 30px;
   }
-
+  .slide {
+    background: #292929
+  }
   .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #ffffff;
     border-color: transparent;
@@ -399,39 +401,40 @@ http://www.templatemo.com/tm-515-eatery
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height: 650px;
+    height: 700px;
   }
 
   .slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(../images/Taste-of-Naples-Sub.png);
   }
 
   .slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/Al-Fresco-Dining.jpeg);
   }
 
   .slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url(../images/Taste-of-Naples-Pizza.jpeg);
   }
 
   .slider .item-second .section-btn {
     background: #292929;
+    
   }
 
   .slider .item-second .section-btn:hover {
     background: #ffffff;
+    
   }
 
   .slider .item-third .section-btn {
-    background: transparent;
-    border: 1px solid #ffffff;
+    background: #292929;
+    
   }
 
   .slider .item-third .section-btn:hover,
   .slider .item-third .section-btn:focus {
     background: #ce3232;
-    border-color: transparent;
-    color: #ffffff;
+    
   }
 
 
